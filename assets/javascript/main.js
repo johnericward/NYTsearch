@@ -16,11 +16,11 @@ $(document).ready(function(){
             var author = response.response.docs[i].byline.original;
             console.log(headlines);
             console.log(author);
-
             $("#benResults").append($("<div>",{"id" : "article"}));
-            $("#article").append($("<p>",{"text" : headlines, "id" : "headline" + i}));
-            $("#headline" + i).append($("<p>",{"text" : author}));
+            $("#article").append($("<p>",{"text" : headlines, "id" : "headline"}));
+            $("#headline").append($("<p>",{"text" : author}));
         }
+
     });
 
 

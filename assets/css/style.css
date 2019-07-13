@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: rgb(12, 74, 182);
+}
+
+.titleText {
+    font-family: 'DM Serif Text', serif;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.cardHeader1 {
+    color:  rgb(12, 62, 148);
+    background-color: rgb(238, 238, 238);
+}
+
+.card1Items {
+    color:  rgb(16, 44, 87);
+
+}
+
+.form-group {
+    align-content: center;
+    width: 90%;
+}
