@@ -9,7 +9,7 @@ $(document).ready(function(){
     var endYear = "2019";
 
     $.ajax({
-        url : queryURL,
+        url : "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=george+washingtons&api-key=N7TjPA0Be6WfOQzEgqi6pu5mJpAsgXe7",
         method : 'GET'
     }).then(function(response){
         console.log(response);
